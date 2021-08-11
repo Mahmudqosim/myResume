@@ -1,12 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mahmudqosim | Resume</title>
-</head>
-<body>
-    
-</body>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#home" class="nav__logo">Mahmudqosim</a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
+            
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Profile
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase nav__icon"></i>Experience
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#interests" class="nav__link">
+                <i class="bx bx-briefcase nav__icon"></i>Interests
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle">
+          <i class="bx bx-grid-alt nav__icon"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main class="main container">
+      <div class="resume">
+        <div class="resume__left">
+          <!-- Home Section -->
+          <section class="home" id="home">
+            <div class="home__container section grid">
+              <div class="home__data grid">
+                <img src="./img/profile.jpg" alt="Mahmudqosim" class="home__img">
+
+                <h1 class="home__title">QOSIM <b>MAHMUD</b></h1>
+                <h3 class="home__profession">Fullstack Web Developer/Designer</h3>
+      
+                <!-- Download Pdf Button -->
+                <div>
+                  <a download="" href="assets/pdf/resume.pdf" class="home__button-download">Download</a>
+                </div>
+              </div>
+
+              <div class="home__social grid">
+                <a class="home__social-link" href="mailto:qmahmud222@gmail.com">
+                  <i class="bx bx-envelope home__icon"></i>qmahmud222@gmail.com
+                </a>
+
+                <a class="home__social-link" href="tel:+2347044375043">
+                  <i class="bx bx-phone home__icon"></i>+2347044375043
+                </a>      
+              </div>
+            </div>
+
+            <i class="bx bx-moon change-theme" title="Theme"></i>
+
+            <i class="bx bx-download generate-pdf" title="Generate Pdf"></i>
+          </section>
+          
+          <!-- Social Section -->
+          <section class="social section">
+            <h2 class="section__title">SOCIAL</h2>
+
+            <div class="social__container grid">
+              <a href="https://twitter.com/profflux" target="_blank" class="social__link">
+                <i class="bx bxl-twitter social__icon"></i> @profflux
+              </a>
+
+              <a href="https://github.com/mahmudqosim" target="_blank" class="social__link">
+                <i class="bx bxl-github social__icon"></i> mahmudqosim
+              </a>
+
+              <a href="https://dribbble.com" target="_blank" class="social__link">
+                <i class="bx bxl-dribbble social__icon"></i> mahmudqosim
+              </a>
+            </div>
+          </section>
+
+          <section class="profile section" id="profile">
+            <h2 class="section__title">PROFILE</h2>
+
+            <p class="profile__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ut laudantium placeat porro, officiis recusandae accusamus excepturi expedita officia mollitia. Officiis accusamus suscipit exercitationem sint cumque in enim beatae minima!</p>
+          </section>
+
+          <!-- Education Section -->
+          <section class="education section" id="education">
+            <h2 class="section__title">Education</h2>
+
+            <div class="education__container grid">
+              <div class="education__content">
+                <div class="education__period">
+                  <span class="education__rect"></span>
+                  <span class="education__line"></span>
+                  <span class="education__rect-second"></span>
+                </div>
+
+                <div class="education__data grid">
+                  <h3 class="education__title">HIGH SCHOOL</h3>
+                  <span class="education__school">As-Sabbaq Pioneer College, Ibadan, Oyo State, Nigeria</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Skills Section -->
+          <section class="skills section" id="skills">
+            <h2 class="section__title">SKILLS</h2>
+
+            <div class="skills__content grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> HTML
+                </li>
+                
+                <li class="skills__name">
+                  <span class="skills__circle"></span> CSS
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span> SASS
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Javascript
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> ReactJS
+                </li>
+                
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Firebase
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> NodeJS
+                </li>
+                
+                <li class="skills__name">
+                  <span class="skills__circle"></span> ExpressJS
+                </li>
+                
+                <li class="skills__name">
+                  <span class="skills__circle"></span> MongoDB
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span> MySQL
+                </li>
+              </ul>
+            </div>
+          </section>
+
+        </div>
+        <div class="resume__right">
+          <section class="experience section" id="experience">
+            <h2 class="section__title">Experience</h2>
+
+            <div class="experience__container grid">
+              <div class="experience__content">
+                <div class="experience__period">
+                  <div class="experience__rect"></div>
+                  <div class="experience__line"></div>
+                  <div class="experience__rect-second"></div>
+                </div>
+
+                <div class="experience__data grid">
+                  <h3 class="experience__title">WEB DEVELOPER INTERN</h3>
+
+                  <span class="experience__company">Icitify Solution Ltd</span>
+                  <p class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quaerat quae itaque, saepe quia minus vitae molestias placeat rem fugit error veritatis doloremque reiciendis ex quis numquam autem! Facilis, accusantium!</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Interests Section -->
+          <section class="interests section" id="interests">
+            <h2 class="section__title">Interests</h2>
+
+            <div class="interests__container grid">
+              <div class="interests__content">
+                <i class="bx bx-book-reader interests__icon"></i>
+                <span class="interests__name">Reading</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-paint interests__icon"></i>
+                <span class="interests__name">Designing</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-code-block interests__icon"></i>
+                <span class="interests__name">Coding</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-game interests__icon"></i>
+                <span class="interests__name">Gaming</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-planet interests__icon"></i>
+                <span class="interests__name">Science</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <a href="#home" class="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <script src="./js/app.js"></script>
+  </body>
 </html>
