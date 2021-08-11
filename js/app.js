@@ -2,7 +2,6 @@ const toggleBtn = document.querySelector(".nav__toggle")
 const navMenu = document.querySelector(".nav__menu")
 const navLinks = document.querySelectorAll(".nav__link")
 const sections = document.querySelectorAll("section[id]")
-const scrollY = window.pageYOffset
 const changeThemeBtn = document.querySelector(".change-theme")
 
 let themeValue = JSON.parse(localStorage.getItem("fluxTheme")) || {
@@ -20,6 +19,8 @@ navLinks.forEach((navLink) => {
 })
 
 function activeScroll() {
+  let scrollY = window.pageYOffset
+
   sections.forEach((current) => {
     const sectionHeight = current.offsetHeight
     const sectionTop = current.offsetTop - 50
