@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+
 /* Light Theme Variables */
 :root {
   --header-height: 3rem;
@@ -122,6 +124,10 @@ body.dark-theme {
   font-size: 1.2rem;
   color: var(--text-color);
   cursor: pointer;
+}
+
+.generate-pdf:hover {
+  color: var(--title-color);
 }
 
 /* Reusable Css Classes */
